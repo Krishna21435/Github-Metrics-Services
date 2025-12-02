@@ -1,0 +1,143 @@
+.repo-metrics {
+  background: #252526;
+  border-radius: 8px;
+  padding: 30px;
+  border: 1px solid #3e3e42;
+  margin-top: 20px;
+}
+
+.repo-header {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3e3e42;
+}
+
+.repo-header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.repo-header h2 a {
+  color: #4fc3f7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.repo-header h2 a:hover {
+  color: #29b6f6;
+}
+
+.repo-description {
+  color: #cccccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.metric-card {
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  color: #cccccc;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.metric-card:hover {
+  border-color: #007acc;
+  background: #3e3e42;
+}
+
+.metric-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4fc3f7;
+}
+
+.metric-label {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #858585;
+}
+
+.repo-details {
+  margin-top: 30px;
+}
+
+.detail-section {
+  margin-bottom: 30px;
+}
+
+.detail-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px;
+}
+
+.detail-label {
+  font-weight: 500;
+  color: #858585;
+}
+
+.detail-value {
+  color: #cccccc;
+}
+
+.languages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px;
+  min-width: 150px;
+}
+
+.language-name {
+  font-weight: 500;
+  color: #4fc3f7;
+}
+
+.language-bytes {
+  color: #858585;
+  font-size: 0.9rem;
+}
+

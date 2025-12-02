@@ -1,0 +1,384 @@
+.user-info {
+  background: #252526;
+  border-radius: 8px;
+  padding: 30px;
+  border: 1px solid #3e3e42;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.user-header {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3e3e42;
+}
+
+.user-avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #007acc;
+}
+
+.user-details h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.user-details h2 a {
+  color: #4fc3f7;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.user-details h2 a:hover {
+  color: #29b6f6;
+}
+
+.username {
+  color: #858585;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.user-bio {
+  color: #cccccc;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.user-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  color: #cccccc;
+  border-radius: 8px;
+  min-width: 120px;
+  transition: all 0.2s ease;
+}
+
+.stat-item:hover {
+  border-color: #007acc;
+  background: #3e3e42;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #4fc3f7;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #858585;
+}
+
+.user-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+.meta-icon {
+  font-size: 1.2rem;
+}
+
+.meta-item a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+.meta-item a:hover {
+  color: #29b6f6;
+  text-decoration: underline;
+}
+
+/* Achievements Section */
+.achievements-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #3e3e42;
+}
+
+.achievements-section h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.achievement-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.achievement-card:hover {
+  border-color: #007acc;
+  background: #3e3e42;
+  transform: translateY(-2px);
+}
+
+.achievement-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.achievement-info {
+  flex: 1;
+}
+
+.achievement-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.achievement-description {
+  font-size: 0.85rem;
+  color: #858585;
+}
+
+/* Contribution Activity Section */
+.contribution-activity-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #3e3e42;
+}
+
+.contribution-activity-section h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contribution-activity-section h4 {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.activity-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.activity-stat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px;
+}
+
+.activity-label {
+  color: #858585;
+  font-size: 0.9rem;
+}
+
+.activity-value {
+  color: #4fc3f7;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.contribution-types {
+  margin-bottom: 25px;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.type-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px;
+}
+
+.type-name {
+  color: #cccccc;
+  font-size: 0.9rem;
+}
+
+.type-count {
+  color: #4fc3f7;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Activity Calendar */
+.activity-calendar {
+  margin-top: 25px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  gap: 4px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  background: #1e1e1e;
+  border: 1px solid #3e3e42;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.calendar-day:hover {
+  border-color: #007acc;
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.calendar-day.none {
+  background: #1e1e1e;
+}
+
+.calendar-day.low {
+  background: #0e4429;
+}
+
+.calendar-day.medium {
+  background: #006d32;
+}
+
+.calendar-day.high {
+  background: #26a641;
+}
+
+.calendar-day.very-high {
+  background: #39d353;
+}
+
+.day-count {
+  font-size: 0.7rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.calendar-legend {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #858585;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-box {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  border: 1px solid #3e3e42;
+}
+
+.legend-box.none {
+  background: #1e1e1e;
+}
+
+.legend-box.low {
+  background: #0e4429;
+}
+
+.legend-box.medium {
+  background: #006d32;
+}
+
+.legend-box.high {
+  background: #26a641;
+}
+
+.legend-box.very-high {
+  background: #39d353;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .calendar-grid {
+    grid-template-columns: repeat(15, 1fr);
+  }
+
+  .user-stats {
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    min-width: 100px;
+    padding: 15px;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

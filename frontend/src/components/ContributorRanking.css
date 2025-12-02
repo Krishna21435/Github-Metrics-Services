@@ -1,0 +1,157 @@
+.contributor-ranking {
+  background: #252526;
+  border-radius: 8px;
+  padding: 30px;
+  border: 1px solid #3e3e42;
+  margin-top: 20px;
+}
+
+.ranking-header {
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #3e3e42;
+}
+
+.ranking-header h3 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.ranking-subtitle {
+  color: #858585;
+  font-size: 0.95rem;
+}
+
+.no-contributors {
+  text-align: center;
+  color: #858585;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.ranking-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 60px 1fr 100px 80px 80px 100px;
+  gap: 15px;
+  padding: 15px;
+  background: #2d2d30;
+  border: 1px solid #3e3e42;
+  border-radius: 6px 6px 0 0;
+  font-weight: 600;
+  color: #858585;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 60px 1fr 100px 80px 80px 100px;
+  gap: 15px;
+  padding: 15px;
+  border-left: 1px solid #3e3e42;
+  border-right: 1px solid #3e3e42;
+  border-bottom: 1px solid #3e3e42;
+  transition: all 0.2s ease;
+  align-items: center;
+}
+
+.table-row:last-child {
+  border-radius: 0 0 6px 6px;
+}
+
+.table-row:hover {
+  background: #2d2d30;
+  border-color: #007acc;
+}
+
+.col-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-badge {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4fc3f7;
+}
+
+.col-contributor {
+  display: flex;
+  align-items: center;
+}
+
+.contributor-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contributor-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #3e3e42;
+}
+
+.contributor-name {
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contributor-name:hover {
+  color: #29b6f6;
+  text-decoration: underline;
+}
+
+.col-commits,
+.col-prs,
+.col-issues,
+.col-total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-value {
+  color: #cccccc;
+  font-weight: 500;
+}
+
+.stat-total {
+  color: #4fc3f7;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .table-header,
+  .table-row {
+    grid-template-columns: 50px 1fr 70px 60px 60px 70px;
+    gap: 10px;
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  .contributor-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .ranking-header h3 {
+    font-size: 1.5rem;
+  }
+}
+
+
